@@ -97,40 +97,41 @@
 // // create different methods e.g openOrCloseDoor() logs doors are opened or closed, start()
 // // logs car is ready for drive.
 
-class Automobile {
-    constructor ( name , model , color , type) {
-        this.name  = name ;
-        this.model = model ;
-        this.color = color ;
-        this.type  = type ;
-        this.openDoor() ;
-        this.closeDoor() ;
-        this.start(name) ;
 
-    }
-        openDoor(){
+// class Automobile {
+//     constructor ( name , model , color , type) {
+//         this.name  = name ;
+//         this.model = model ;
+//         this.color = color ;
+//         this.type  = type ;
+//         this.openDoor() ;
+//         this.closeDoor() ;
+//         this.start(name) ;
 
-           document.write( this.name + " doors are opened");
-           document.write("<br>");
-        }
+//     }
+//         openDoor(){
+
+//            document.write( this.name + " doors are opened");
+//            document.write("<br>");
+//         }
 
         
-        closeDoor(){
+//         closeDoor(){
 
-            document.write( this.name + " doors are closed");
-            document.write("<br>");
-        }
+//             document.write( this.name + " doors are closed");
+//             document.write("<br>");
+//         }
 
-        start(){
+//         start(){
 
-            document.write( this.name + " is Ready For Drive") ;
-            document.write("<br>");
-        }
+//             document.write( this.name + " is Ready For Drive") ;
+//             document.write("<br>");
+//         }
 
 
-    }
+//     }
 
-   const auto = new Automobile( 'Civic' , '2020' , 'Black' , 'Automatic') ;
+//    const auto = new Automobile( 'Civic' , '2020' , 'Black' , 'Automatic') ;
 
 
 
@@ -149,31 +150,31 @@ class Automobile {
 // // Create Car, Bus and Truck child class from the Automobile Class.
 
 
-    class Car extends Automobile {
-          constructor ( name , model , color , type ){
-            super( name , model , color , type)
-          }
+    // class Car extends Automobile {
+    //       constructor ( name , model , color , type ){
+    //         super( name , model , color , type)
+    //       }
           
-    }
+    // }
 
-    class Bus extends Automobile {
-        constructor ( name , model , color , type , horns , seats) {
-            super( name , model , color , type )
-            this.horns = horns ;
-            this.seats = seats;
+    // class Bus extends Automobile {
+    //     constructor ( name , model , color , type , horns , seats) {
+    //         super( name , model , color , type )
+    //         this.horns = horns ;
+    //         this.seats = seats;
 
-        }
-    }
+    //     }
+    // }
    
 
-    class Truck extends Automobile {
-        constructor ( name , model , color , type , tyre , loadedItems) {
-            super( name , model , color , type )
-            this.tyre = tyre ;
-            this.loadedItems = loadedItems;
-    }
+    // class Truck extends Automobile {
+    //     constructor ( name , model , color , type , tyre , loadedItems) {
+    //         super( name , model , color , type )
+    //         this.tyre = tyre ;
+    //         this.loadedItems = loadedItems;
+    // }
     
-    }
+    // }
 
 
 
